@@ -1,25 +1,58 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>    
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="output.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
-</head>
+  <body>
+    <div class="h-full flex flex-col justify-center bg-[#F0F5FE]">
+      <div class="py-3 w-1/3 mx-auto">
+        <div class="bg-white rounded-xl">
+          <div class="h-[300px] rounded-xl" style="background: no-repeat 0px -570px url('https://s3-alpha-sig.figma.com/img/5271/d9f5/52ff44a097668fc8cb1fd3714f455783?Expires=1698019200&Signature=BtvDJ6MWjEHP9f-DBaRLWCgJlnEP6n2c3z~Ics0p5PhNGa2k1cnAkLRDdGiplxFsBNwtbF0XNxKM-WRFBx7GlYz-W5XtJdaHJeMg0nTGFrv4BwYW-oqZm-Zt9M-j-ZGHbhD9CfFBvJgV9en4rtjC6mNuWCWDcyRQA3dK4ExbT~ObqMMTWPLdi-af0ubEH98Xaic73K~b~D9wqC~YoziFGQ0imHJgA-obZ1lSSF9DoCYQy5wBGT5zl830EDYgCBx6SIUx7CJBgooleaNMOgnE6fPglp-ov8De5~mdVxi4NJ5I8sdlyjPU1qysjVX4~RxQY8Q-7T7AniYjlE1PoU1KIw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')">
+          </div>
+          
+          <div class="pl-8 pt-7 pb-5">
+            <h1 class="text-black text-4xl font-bold font-['Roboto']">
+              Basic Crêpes
+            </h1>
+          </div>
+          
+          <hr class="mx-6">
 
-<body>
-  <div class="h-full flex flex-col justify-center bg-[#F0F5FE]">
-    <div class="py-3  sm:max-w-xl sm:mx-auto">
-      <div class="p-12  bg-white rounded-xl">
-        <h1 class="text-lg">Recipe Card Code Challenge</h1>
+          <div class="px-20 py-6 flex flex-col gap-8">
+            <div>
+              <div class="flex justify-between px-4">
+                <div class="flex flex-col items-center">
+                  <span class="text-red-400 text-4xl font-bold font-['Roboto']">30</span>
+                  <span class="text-black text-lg font-normal font-['Roboto']">Minutes</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-red-400 text-4xl font-bold font-['Roboto']">6</span>
+                  <span class="text-black text-lg font-normal font-['Roboto']">Ingredients</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-red-400 text-4xl font-bold font-['Roboto']">4</span>
+                  <span class="text-black text-lg font-normal font-['Roboto']">Serving</span>
+                </div>
+              </div>
+            </div>
+  
+            <span class="mx-12 text-center text-black text-lg font-normal font-['Roboto']">
+              This simple but delicious crêpe recipe can be made in minutes from ingredients that everyone has on hand.
+            </span>
+  
+            <button class="w-full h-[78px] bg-red-400 rounded-[5px]">
+              <span class="text-white text-2xl font-bold font-['Roboto']">View Recipe</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
